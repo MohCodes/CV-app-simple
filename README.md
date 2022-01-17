@@ -1,3 +1,3 @@
 Simple React CV app 
 
-Live: 
+Live:  https://moefarts.github.io/CV-app-simple/
