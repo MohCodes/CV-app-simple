@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  border: aqua double;
 }
 
 .App-logo {
@@ -14,7 +15,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,118 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Componenet Styling */
+/*General Styling */
+
+.generalContainer {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.generalinputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.fas {
+  cursor: pointer;
+}
+
+/* Education Styling*/
+
+.educationContainer {
+  border: burlywood double;
+  height: 16vh;
+  margin-top: 1%;
+}
+
+.schoolName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  font-size: 125%;
+}
+
+.yearLength {
+  font-size: 75%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.schoolNameButton {
+  height: 2vh;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.schoolNameContainer {
+  width: 17.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.educationHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 24px;
+}
+
+.degreeTypeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.degreeTypeDisplay {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+/* experience componenet */
+
+.experienceContainer {
+  border: seagreen double;
+}
+
+.experienceHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 24px;
+}
+
+.experienceTitleDisplay {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 125%;
+}
+
+.XP {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.experienceDescriptionContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 30%;
 }
